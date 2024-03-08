@@ -24,7 +24,7 @@ pipeline {
         echo 'deploy'
       }
     }
-    post{
+    post {
       failure{
         error 'Pipeline failed'
       }
